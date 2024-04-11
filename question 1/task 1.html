@@ -1,1 +1,71 @@
-ab
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question -1</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="Name">Name:</label></td>
+                <td><input type="text" name="Name" id="Name" placeholder="enter your Name" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="Email">Email:</label></td>
+                <td><input type="email" name="email" id="email" placeholder="xyz@gmail.com" required></td>
+            </tr>
+
+            <tr>
+                <td> <label for="Password">Password:</label></td>
+                <td><input type="Password" name="Password" id="Password" placeholder="enter a strong password" required></td>
+            </tr>
+            <tr>
+                <td>
+                    Hobbies:
+                </td>
+                <td>Learning</td>
+                <td><input type="checkbox" name="Hobbies" value="Learning"></td>
+                <td>Reading</td>
+                <td><input type="checkbox" name="Hobbies" value="Reading"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Gender">Gender:</label></td>
+                <td>Male</td>
+                <td><input type="radio" name="Gender" value="Male"></td>
+                <td><label for="Female">Female</label></td>
+                <td><input type="radio" name="Gender" value="Female"></td>
+            </tr>
+
+            <tr>
+                <td><label for="File">Files</label></td>
+                <td><input type="file" name="File" id="file"></td>
+            </tr>
+
+            <tr>
+                <td>
+                   <label for="Education Qualification">Education Qualification:</label>
+                </td>
+                <td><select name="select" id="select">
+                    <option value="">select qualification</option>
+                    <option value="">10+2</option>
+                    <option value="">BCA</option>
+                    <option value="">MCA</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td> <button type="submit">submit</button></td>
+                <td> <button type="reset">reset</button></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+    </form>
+</body>
+</html>
